@@ -67,59 +67,13 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="80dp"
                 android:text="Empleado"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:text="Herramientas Asignadas"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cargo" />
-
-            <EditText
-                android:id="@+id/codigo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="55dp"
-                android:layout_marginTop="24dp"
-                android:ems="10"
-                android:hint="Codigo"
-                android:inputType="text"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-            <EditText
-                android:id="@+id/descripcion"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:ems="10"
-                android:hint="Descripción"
-                android:inputType="text"
-                app:layout_constraintStart_toEndOf="@+id/codigo"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-            <EditText
-                android:id="@+id/estadoher"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:ems="10"
-                android:hint="Estado"
-                android:inputType="text"
-                app:layout_constraintStart_toEndOf="@+id/descripcion"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
             <TextView
                 android:id="@+id/titulo"
@@ -136,47 +90,21 @@
                 android:id="@+id/guardar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="240dp"
+                android:layout_marginStart="232dp"
+                android:layout_marginTop="24dp"
                 android:text="Guardar"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/entrega" />
+                app:layout_constraintTop_toBottomOf="@+id/id_users" />
 
             <Button
-                android:id="@+id/actualizar"
+                android:id="@+id/ver"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Actualizar"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="24dp"
+                android:text="Ver Lista"
                 app:layout_constraintStart_toEndOf="@+id/guardar"
-                app:layout_constraintTop_toBottomOf="@+id/entrega" />
-
-            <Button
-                android:id="@+id/eliminar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Eliminar"
-                app:layout_constraintStart_toEndOf="@+id/actualizar"
-                app:layout_constraintTop_toBottomOf="@+id/entrega" />
-
-            <EditText
-                android:id="@+id/entrega"
-                android:layout_width="210dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="55dp"
-                android:clickable="true"
-                android:focusable="false"
-                android:hint="Entrega(dd/mm/aaaa)"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/codigo" />
-
-            <EditText
-                android:id="@+id/devolucion"
-                android:layout_width="220dp"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:focusable="false"
-                android:hint="Devolucion(dd/mm/aaaa)"
-                app:layout_constraintStart_toEndOf="@+id/entrega"
-                app:layout_constraintTop_toBottomOf="@+id/descripcion" />
+                app:layout_constraintTop_toBottomOf="@+id/id_users" />
 
             <Spinner
                 android:id="@+id/id_users"
