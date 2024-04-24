@@ -52,7 +52,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation ("com.android.volley:volley:1.2.0")
-
-
+    implementation("com.itextpdf:itextg:5.5.10")
 
 }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -77,6 +78,27 @@
         android:textSize="16sp" />
 
     <TextView
+        android:id="@+id/expedi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/venci"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
         android:id="@+id/cedula"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -86,6 +108,23 @@
         android:paddingEnd="4dp"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
+
+
+    <ImageView
+        android:id="@+id/btn_actualizar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="Actualizar"
+        android:background="@drawable/pngtree"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/btn_eliminar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="Eliminar"
+        android:background="@drawable/klipartzcom"
+        tools:textSize="10sp" />
 
     <!-- Continúa con más TextView para otros atributos de la herramienta -->
 
